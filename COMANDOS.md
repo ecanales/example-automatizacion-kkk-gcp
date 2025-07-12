@@ -32,8 +32,9 @@ https://github.com/settings/tokens
 ## Paso 0: Vinculación
 gcloud init
 
+
 ## Paso 1: Creación del repositorio
-gcloud artifacts repositories create repo-deploy-fastapi-cicd --repository-format docker --project project-mlops-10-streamlit --location us-central1
+gcloud artifacts repositories create repo-deploy-fastapi-cicd --repository-format docker --project proyect-asistente-openai-ino --location us-central1
 
 ## Paso 2: Crear la imagen de mi APLICACION y subir al repositorio
 gcloud builds submit --config=cloudbuild.yaml --project project-mlops-10-streamlit
