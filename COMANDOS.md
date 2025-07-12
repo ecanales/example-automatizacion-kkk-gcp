@@ -2,7 +2,7 @@ git init
 git add .
 git commit -m "Proyecto de automatización de despliegue en GCR"
 ## Vinculamos nuestro repositorio local con el remoto en GitHub y le damos el nombre de origin
-git remote add origin https://github.com/KevinInoCol/Automatizacion-Deploy-en-GCR-de-GCP.git
+git remote add origin https://github.com/ecanales/example-automatizacion-kkk-gcp.git
 
 ## Tu repo probablemente usa "main" como rama principal
 git branch -M main
